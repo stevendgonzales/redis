@@ -27,8 +27,6 @@ RUN mkdir /etc/redis/ \
 
 COPY redis.conf /etc/redis/redis.conf
 
-VOLUME /etc/redis
-VOLUME /var/log/redis
 VOLUME /data
 WORKDIR /data
 
